@@ -1,0 +1,110 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #000000;
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+  }
+  
+  .navbar ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  .navbar ul li {
+    margin-left: 5rem;
+  }
+  
+  .navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+  }
+  
+  .navbar ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  .apresentacao {
+    padding: 2rem;
+    text-align: center;
+    background-color: #f4f4f4;
+  }
+  
+  .apresentacao img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 1rem;
+  }
+  
+  .carreira {
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .servicos {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+  }
+  
+  .servico {
+    flex: 1;
+    margin: 0 1rem;
+    padding: 1rem;
+    background-color: #eaeaea;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  #contato {
+    padding: 2rem;
+    text-align: center;
+    background-color: #f4f4f4;
+    word-spacing: 200px;
+    
+  }
+  
+  footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #000;
+    color: white;
+  }
+    .servico {
+      margin-bottom: 1rem;
+    }
+
+    .tio {
+      width: 400px;
+      height: auto; 
+      border: #000 2px;
+      border-radius: 15px;
+    }
+    .filho {
+      border: #000000 2px;
+      border-radius: 15px;
+    }
+    
